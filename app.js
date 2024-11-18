@@ -10,6 +10,6 @@ for(let i = 0; i <= numbers.length; i++){
         }
     }
 }
-primeArray = primeArray.((a,b) => a-b);
+primeArray = primeArray((a,b) => a-b);
 console.log("Minimum Value: ", primeArray[0]);
-console.log("Minimum Value: ", primeArray[-1]);
+console.log("Maximum Value: ", primeArray[-1]);
